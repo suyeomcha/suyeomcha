@@ -1,0 +1,389 @@
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color : #FFFCFC
+    font-size : 18px;
+    font-weight: 400;
+    line-height : 1.4;
+    font-family : 'Segoe UI','Sans-serif';
+}
+
+.background1 {
+    position: relative;
+    width : 100vw;
+    height : 1443px ;
+    background-color: linear-gradient(to right, #4C4CE6, #B200FF)
+    overflow : hidden;
+}
+
+.background1 .rectangle1 {
+    position: absolute;
+    width : 103vw;
+    height :36vh;
+    left : -8vw;
+    top : 34vh;
+    background-color : linear-gradient(to right, #4C4CE6, #B200FF)
+    transform : rotate(-10deg);
+    box-shadow: -8px 20px 19px rgba(0, 0, 0):
+}
+
+.background1 .rectangle2 {
+    position : absolute;
+    width : 103vw;
+    height : 36vh;
+    top : 42vh;
+    left : 20vw;
+    background :linear-gradient(to right, #4C4CE6, #B200FF)
+    transform : rotate(50de
+    box-shadow :-8px 20px 1
+}
+
+.background1 .back-rec1 {
+    position : absolute;
+    background-color : transparent
+    width : 28vw;
+    height :50vh;
+    border: 16px solid rgba (255, 255, 255, 21%)
+    left : -5vw;
+    top : 68vh;
+}
+
+
+.background1 .back-rec2 {
+    position : absolute;
+    background-color : transparent
+    width : 28vw;
+    height :50vh;
+    border: 16px solid rgba (255, 255, 255, 21%)
+    left : -5vw;
+    top : 68vh;
+}
+
+
+.background1 .text-rec {
+    position : absolute;
+    background-color : transparent
+    width : 276px;
+    height: 327px;
+    margin : 37.6vh auto;
+    left : 0px;
+    right : 0px;
+    border: 18px solid #FFFFFF ;
+
+}
+
+.background1 .text-rec .text {
+    position : absolute;
+    text-align : center;
+    top : 27.5px ;
+    left :45px;
+    color : #FFFCFC;
+    font-size : 116px;
+    font-weight: 700;
+    line-height : 1.18;
+    font-family : "Segoe UI" "san-serif";
+}
+
+.header{
+    z-index : 2;
+    width : 1290px;
+    height :107px;
+    position : fixed;
+    margin: 34px auto ;
+    left : 0px;
+    right : 0px;
+    background-color: transparent ;
+}
+
+h3 {
+    color: #FFFCFC;
+    position : absolute;
+    font-size : 30px;
+    font-weight:500;
+    left : 57px;
+    top: 35px;
+    bottom: 35px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content : flex-end;
+}
+
+.header .menu .nav-item {
+    font-size : 18px
+    display : block;
+    padding : 43px 10px ;
+    color : #FFFCFC;
+}
+
+.header .menu .nav-item a {
+    color : #FFFCFC;
+}
+
+.background2 {
+    position: relative;
+    width : 100vw;
+    height: 1443px;
+    background-color :#FFFCFC
+}
+
+.background2 .text-container {
+    position: absolute;
+    margin : 0 auto;
+    left : 0px;
+    right:0px;
+    top : 8.7vh;
+    width: 689px;
+    height:130px;
+}
+
+.background2 .text-container .text1{
+    position : absolute;
+    font-size : 45px;
+    color: #424647;
+    font-family: ;
+}
+
+.background2 .texxt1 span{
+    color :#ff17cc;
+}
+
+
+.background2 .text2{
+    position: absolute;
+    text-align: center;
+    font-size : 20px;
+    color : #8f8f8f;
+    left :21.5px;
+    bottom: 0px;
+}
+
+.background2 .box-container {
+    position : absolute;
+    width : 1500px;
+    height : 1000px;
+    margin : 0 auto ;
+    left: 0 px;
+    right: 0px;
+    top :28%;
+}
+
+.background2 .box-container .el-container1 {
+    positon : absolute;
+    left : 0px;
+    top : 70px;
+    width: 30%;
+    height : 43%;
+    background : #FFFCFC;
+    boc-shadow : 0px 3px 45px rgba(0,0,0, 16%)
+}
+
+.background2 .box-container .el-container1 img{
+    positon : absolute;
+    width : 25%;
+    height : 25%;
+    left :37.5%;
+    top : 14%;
+}    
+
+.background2 .box-container .el-container1 .E{
+    positon : absolute;
+    color : #000;
+    font-size:35px;
+    legt: 20%;
+    top : 45%;
+}
+.background2 .box-container .el-container1 .Y{
+    positon :absolute;
+    color : #747474;
+    text-align : center;
+    font-size :25px;
+    font-weight: 300;
+    left : 8%
+    bottom 15%;
+}
+
+.background2 .box-container .el-container2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 30%;
+    height: 43%;
+    background: #FFFCFC;
+    box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  }
+  
+  .background2 .box-container .el-container2 img {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    top: 14%;
+  }
+  
+  .background2 .box-container .el-container2 .S {
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    left: 30%;
+    top: 45%;
+  }
+  
+  .background2 .box-container .el-container2 .Y{
+    position: absolute;
+    color: #747474;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .background2 .box-container .el-container3 {
+    position: absolute;
+    top: 0px;
+    left: 525px;
+    width: 30%;
+    height: 43%;
+    background: #FFFCFC;
+    box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  }
+  
+  .background2 .box-container .el-container3 img {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    top: 14%;
+  }
+  
+  .background2 .box-container .el-container3 .O {
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    left: 23%;
+    top: 45%;
+  }
+  
+  .background2 .box-container .el-container3 .Y{
+    position: absolute;
+    color: #747474;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .background2 .box-container .el-container4 {
+    position: absolute;
+    bottom: 70px;
+    left: 525px;
+    width: 30%;
+    height: 43%;
+    background: #FFFCFC;
+    box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  }
+  
+  .background2 .box-container .el-container4 img {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    top: 14%;
+  }
+  
+  .background2 .box-container .el-container4 .G{
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    left: 23%;
+    top: 45%;
+  }
+  
+  .background2 .box-container .el-container4 .Y{
+    position: absolute;
+    color: #747474;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .background2 .box-container .el-container5 {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    width: 30%;
+    height: 43%;
+    background: #FFFCFC;
+    box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  }
+  
+  .background2 .box-container .el-container5 img {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    top: 14%;
+  }
+  
+  .background2 .box-container .el-container5 .P{
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    left: 25%;
+    top: 45%;
+  }
+  
+  .background2 .box-container .el-container5 .Y{
+    position: absolute;
+    color: #747474;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .background2 .box-container .el-container6 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 30%;
+    height: 43%;
+    background: #FFFCFC;
+    box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  }
+  
+  .background2 .box-container .el-container6 img {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    top: 14%;
+  }
+  
+  .background2 .box-container .el-container6 .M{
+    position: absolute;
+    color: #000;
+    font-size: 35px;
+    left: 25%;
+    top: 45%;
+  }
+  
+  .background2 .box-container .el-container6 .Y{
+    position: absolute;
+    color: #747474;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    left: 8%;
+    bottom: 15%;
+  }
+  
