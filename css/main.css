@@ -447,65 +447,64 @@ h3 {
   width: 550px;
   height: auto;
 }
-
 .background4 {
-  position : relative;
-  z-index : 1;
-  width : 100vw;
-  height : 1443px;
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 1443px;
   background-color: #FFFCFC;
-  overflow : hidden;
+  overflow: hidden;
 }
 
 .background4 .app {
-  position : absolute;
-  left : 27%;
-  top : 21%;
-  width : 550px;
-  height : auto;
+  position: absolute;
+  left: 27%;
+  top: 21%;
+  width: 550px;
+  height: auto;
 }
 
-.background4 .M{
-  position : absolute;
-  font-size : 40px;
-  font-weight : 200;
-  left : 48%;
-  top : 30%
-  color :#4246470;
-}
-
-.background4 .T{
-  position : absolute;
-  font-size : 30px;
+.background4 .M {
+  position: absolute;
+  font-size: 40px;
   font-weight: 200;
-  left : 48%;
-  top : 42%
-  color : #8f8f8f;
+  left: 48%;
+  top: 30%;
+  color: #000;
+}
+
+.background4 .T {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 200;
+  left: 48%;
+  top: 42%;
+  color: #8f8f8f;
 }
 
 .background4 .graphback1 {
-  position : absolute;
-  width : 22%;
-  height : 45px;
-  background-color:#E8E8E8;
-  left : 48%;
-  top : 52%;
+  position: absolute;
+  width: 22%;
+  height: 45px;
+  background-color: #e8e8e8;
+  left: 48%;
+  top: 56%;
   border-radius: 50px;
 }
 
 .background4 .graphfront1 {
-  position :absolute;
-  width : 85%;
-  height : 45px;
+  position: absolute;
+  width: 85%;
+  height: 45px;
   background-color: #FF00CC;
   border-radius: 50px;
 }
 
-.background4 .graphfront1 span{
-  position :absolute;
-  left : 40%;
-  font-size : 30px;
-  font-weight : 300;
+.background4 .graphfront1 span {
+  position: absolute;
+  left: 40%;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .background4 .graphback2 {
